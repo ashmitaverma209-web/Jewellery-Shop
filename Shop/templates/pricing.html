@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="pricing-section">
+  <h1 class="text-center mb-4">Our Pricing</h1>
+
+  <div class="row text-center">
+
+    {% for product in products %}
+    <div class="col-md-4 mb-4">
+      <div class="card p-3">
+
+        <!-- Image -->
+        <img src="{% static 'img/'|add:product.image %}" class="card-img-top" height="200">
+        <!-- Details -->
+        <div class="card-body">
+          <h4>{{ product.name }}</h4>
+          <h2 style="color:green;">₹{{ product.price }}</h2>
+          <button class="btn btn-dark">Buy Now</button>
+        </div>
+
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</div>
+
+
+{% endblock %}

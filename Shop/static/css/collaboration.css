@@ -1,0 +1,87 @@
+/* Hero Section */
+
+.collab-hero{
+    height: 90vh;
+
+    background:
+    linear-gradient(
+        rgba(255,240,245,0.65),
+        rgba(255,240,245,0.65)
+    ),
+    url('/static/img/backg.jpeg');
+
+    background-size: cover;
+    background-position: center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.collab-content{
+    max-width:700px;
+}
+
+.collab-content h1{
+    font-size:65px;
+    color:#8b5a2b;
+    margin-bottom:20px;
+}
+
+.collab-content p{
+    font-size:22px;
+    color:#444;
+    line-height:1.7;
+}
+
+.collab-btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 35px;
+    border-radius:40px;
+    background:#d4af37;
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.collab-btn:hover{
+    transform:scale(1.08);
+}
+
+/* Cards */
+
+.collab-cards{
+    background:#fff0f5;
+    padding:80px 20px;
+
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.collab-cards .card{
+    width:300px;
+    padding:30px;
+
+    border:none;
+    border-radius:25px;
+
+    background:white;
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    transition:0.4s;
+}
+
+.collab-cards .card:hover{
+    transform:translateY(-12px);
+}
+
+.icon{
+    font-size:50px;
+    margin-bottom:15px;
+}

@@ -1,0 +1,80 @@
+/* ABOUT HERO */
+
+.about-hero{
+    height:60vh;
+
+    background:
+    linear-gradient(
+    rgba(255,240,245,0.5),
+    rgba(255,240,245,0.5)
+    ),
+    url('/static/img/backg.jpeg');
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.about-overlay{
+    text-align:center;
+    background:rgba(255,255,255,0.6);
+    padding:40px;
+    border-radius:20px;
+}
+
+.about-overlay h1{
+    font-size:60px;
+    color:#8b5a2b;
+}
+
+.about-overlay p{
+    font-size:22px;
+    color:#444;
+}
+
+/* STORY SECTION */
+
+.about-story{
+    background:#fff0f5;
+    padding:80px 20px;
+
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.story-card{
+    width:300px;
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.4s;
+}
+
+.story-card:hover{
+    transform:translateY(-10px);
+}
+
+.story-card h2{
+    color:#b8860b;
+}
+
+/* QUOTE */
+
+.quote-section{
+    text-align:center;
+    padding:80px 20px;
+    background:#f8d7e8;
+}
+
+.quote-section h2{
+    color:#7a4e48;
+    font-style:italic;
+}

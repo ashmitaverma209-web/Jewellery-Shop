@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<section class="shop-section">
+    <h1 class="shop-title">Welcome to our Online Shop!</h1>
+<div class="product-container">
+    <div class="product-card">
+        <img src="{% static 'img/earrings.jpg' %}">
+        <h2>Elegant Earrings</h2>
+        <p>Price: 50000Rs</p>
+        <button>Buy Now</button>
+    </div>
+    <div class="product-card">
+        <img src="{% static 'img/necklace.jpg' %}">
+        <h2>Beautiful Necklace</h2>
+        <p>Price: 80000Rs</p>
+        <button>Buy Now</button>
+    </div>
+    <div class="product-card">
+        <img src="{% static 'img/brace.jpg' %}">
+        <h2>Stylish Bracelet</h2>
+        <p>Price: 30000Rs</p>
+        <button>Buy Now</button>
+    </div>
+    <div class="product-card">
+        <img src="{% static 'img/images3.jpg' %}">
+        <h2>Gorgeous Ring</h2>
+        <p>Price: 60000Rs</p>
+        <button>Buy Now</button>
+    </div>
+    <div class="product-card">
+        <img src="{% static 'img/OIP.jpg' %}">
+        <h2>Charming Pendant</h2>
+        <p>Price: 40000Rs</p>
+        <button>Buy Now</button>
+    </div>
+
+</div>
+{% endblock %} 
+ 
+
+
+
+
+
+

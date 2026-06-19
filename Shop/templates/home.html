@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="hero">
+  <div class="hero::before"></div>
+  <div class="hero-overlay">
+    <h1 class="hero-title">Hello Everyone</h1>
+    <p class="hero-tagline">Welcome to my Jewellery Shop!</p>
+    <a href="/collection/" class="hero-btn">Shop Now</a>
+  </div>
+</div>
+
+
+  <!-- <h1 class="animate__animated animate__fadeInDown text-center" style="color: black;">
+    Hello Everyone
+  </h1>
+
+  <h2 class="animate__animated animate__fadeInDown text-center" style="color: black;">
+    Welcome to my Jewellery Shop !
+  </h2> -->
+
+  <a href="/about/">About</a>
+  <a href="/contact/">Contact</a>
+  <a href="/signup/">Signup</a>
+  <a href="/login/">Login</a>
+  <a href="/collection/">New Collection</a>
+
+</div>
+
+{% endblock %}
